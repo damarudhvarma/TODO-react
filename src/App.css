@@ -1,0 +1,50 @@
+body {
+  background-color: aqua;
+}
+h1 {
+  text-align: center;
+}
+.input-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container >input {
+  height: 40px;
+  width: 300px;
+}
+.input-container> button {
+  margin: 20px;
+  border-radius: 50%;
+  font-size: larger;
+  width: 40px;
+  background-color: red;
+  height: 40px;
+}
+.container-task{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.task-list{
+  background-color: white;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  border-radius: 45px;
+  margin: 10px;
+  
+}
+
+.actions >button{
+  background-color: red;
+  font-size: 1rem;
+  font-family: serif;
+  margin-left: 10px;
+}
